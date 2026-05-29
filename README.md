@@ -1,0 +1,2 @@
+# SoundBuddy
+Simple sound widget
