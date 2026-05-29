@@ -1,0 +1,4 @@
+[workspace]
+resolver = "2"
+members = ["crates/soundbuddy-audio","crates/soundbuddy-core", "crates/soundbuddy-media", "crates/soundbuddy-presets", "crates/soundbuddy-volume","src-tauri"]
+# Add when created (S01): crates/soundbuddy-core, soundbuddy-audio, soundbuddy-media, soundbuddy-volume, soundbuddy-presets

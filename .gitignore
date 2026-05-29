@@ -1,0 +1,25 @@
+# Rust
+/target/
+**/target/
+
+# Node / Angular
+node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Tauri
+src-tauri/target/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+**/.cursor/* 
+
+# Local config (optional — user data is in %APPDATA%)
+*.local.json
+
+# Internal specifications  
+/docs/*
