@@ -1,4 +1,17 @@
 [workspace]
 resolver = "2"
-members = ["crates/soundbuddy-audio","crates/soundbuddy-core", "crates/soundbuddy-media", "crates/soundbuddy-presets", "crates/soundbuddy-volume","src-tauri"]
-# Add when created (S01): crates/soundbuddy-core, soundbuddy-audio, soundbuddy-media, soundbuddy-volume, soundbuddy-presets
+members = [
+    "crates/soundbuddy-audio",
+    "crates/soundbuddy-core",
+    "crates/soundbuddy-media",
+    "crates/soundbuddy-presets",
+    "crates/soundbuddy-volume",
+    "src-tauri",
+]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "allow", priority = -1 }

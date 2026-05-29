@@ -9,6 +9,18 @@ frontend/.angular/
 
 # Tauri
 src-tauri/target/
+src-tauri/gen/
+
+# Rust (artifacts)
+*.rs.bk
+*.pdb
+
+# Secrets / env
+.env
+.env.*
+
+# Frontend test output
+frontend/coverage/
 
 # OS / IDE
 .DS_Store
